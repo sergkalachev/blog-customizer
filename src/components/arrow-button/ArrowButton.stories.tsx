@@ -13,7 +13,10 @@ export const ArrowButtonStory: Story = {
 	render: () => {
 		return (
 			<>
-				<ArrowButton />
+				<ArrowButton
+					toggleSidebar={() => alert('нажали на форму')}
+					isOpen={false}
+				/>
 			</>
 		);
 	},
